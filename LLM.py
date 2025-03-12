@@ -98,10 +98,3 @@ class LlamaChat(BaseModel):
         response, history = self.model.chat(self.tokenizer, prompt, history)
         return response, history
 
-
-
-if __name__ == "__main__":
-    path = "/data/ssd/PTM/chatglm2-6b"
-    model = GLMChat(path)
-    response, history = model.chat('你好,我想知道什么是Agent?', [])
-    print(response)
