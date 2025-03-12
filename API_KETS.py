@@ -1,0 +1,3 @@
+X_API_KEY = ""
+GITHUB_API_KEY = ""
+DEEPSEEK_API_KEY = ""
